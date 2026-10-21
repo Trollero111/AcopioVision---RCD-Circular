@@ -1,0 +1,1672 @@
+[
+  {
+    "id": "rcd-demo-001",
+    "pileName": "Cúpula 01 - Árido Reciclado 0-20 mm",
+    "location": "Planta La Campaneta (Calle 3)",
+    "zoneId": "zone-aridos-1",
+    "operatorUser": "Carlos M. (Palista)",
+    "createdAt": "2026-10-21T08:04:06.777Z",
+    "images": [
+      "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "pala_cargadora",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.18,
+        0.12,
+        0.88,
+        0.89
+      ],
+      "polygon": [
+        {
+          "x": 0.14,
+          "y": 0.87
+        },
+        {
+          "x": 0.28,
+          "y": 0.52
+        },
+        {
+          "x": 0.49,
+          "y": 0.2
+        },
+        {
+          "x": 0.73,
+          "y": 0.54
+        },
+        {
+          "x": 0.88,
+          "y": 0.87
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Cazo de pala cargadora CAT 950",
+        "assumed_dimension_m": 2.6,
+        "dimension_type": "anchura",
+        "confidence": 0.95
+      },
+      "estimated_scale_m_per_px": 0.0058,
+      "scale_reasoning": "Cazo estándar de pala frontal CAT (anchura 2,60 m) visible a pie de acopio.",
+      "dimensions": {
+        "width_m": 14.5,
+        "depth_m": 11.2,
+        "height_m": 3.4,
+        "top_radius_m": 0.4
+      },
+      "geometric_shape": "cono",
+      "shape_factor": 0.88,
+      "material_classification": {
+        "category": "Producto tratado",
+        "primary_material": "Árido reciclado",
+        "probabilities": [
+          {
+            "material": "Árido reciclado",
+            "probability": 0.94
+          },
+          {
+            "material": "Árido reciclado de hormigón",
+            "probability": 0.06
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": true,
+        "primary_granulometry": "0-20 mm",
+        "probabilities": [
+          {
+            "size": "0-20 mm",
+            "probability": 0.91
+          },
+          {
+            "size": "20-40 mm",
+            "probability": 0.09
+          }
+        ]
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 0.8,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.91,
+      "confidence_reduction_factors": [],
+      "observations": "Cúpula cónica recién cribada bajo trommel rotativo. Fracción fina 0-20 mm homogénea para subbase de viales."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 127.4,
+      "min_m3": 114.7,
+      "max_m3": 140.1,
+      "formula_applied": "V = (π · (ancho/2) · (fondo/2) · altura) / 3",
+      "explanation": "Cono regular con factor de talud natural de reposo 88%.",
+      "error_margin_percent": 10
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 178.4,
+      "min_tonnes": 160.6,
+      "max_tonnes": 196.1,
+      "density_used_t_m3": 1.4,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 127.4,
+    "effectiveVolumeRange": [
+      114.7,
+      140.1
+    ],
+    "effectiveWeightTonnes": 178.4,
+    "effectiveWeightRange": [
+      160.6,
+      196.1
+    ],
+    "effectiveMaterial": "Árido reciclado",
+    "effectiveGranulometry": "0-20 mm",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 0.8,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 182.5,
+    "weightErrorTonnes": -4.1,
+    "weightErrorPercent": 2.25,
+    "scaleWeighingDate": "2026-10-21T10:04:06.777Z",
+    "scaleTicketNumber": "BAS-2026-1140",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-002",
+    "pileName": "Box 2 - Escombro Mixto Obra Barbastro",
+    "location": "Planta La Campaneta",
+    "zoneId": "zone-box-2",
+    "operatorUser": "Javier S. (Báscula)",
+    "createdAt": "2026-10-19T12:04:06.777Z",
+    "images": [
+      "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "pared_muro",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.15,
+        0.08,
+        0.92,
+        0.94
+      ],
+      "polygon": [
+        {
+          "x": 0.1,
+          "y": 0.91
+        },
+        {
+          "x": 0.25,
+          "y": 0.4
+        },
+        {
+          "x": 0.5,
+          "y": 0.18
+        },
+        {
+          "x": 0.78,
+          "y": 0.45
+        },
+        {
+          "x": 0.92,
+          "y": 0.91
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Muro divisorio de hormigón (4,00m × 2,50m)",
+        "assumed_dimension_m": 4,
+        "dimension_type": "anchura",
+        "confidence": 0.93
+      },
+      "estimated_scale_m_per_px": 0.0071,
+      "scale_reasoning": "Muro perimetral del box 2 utilizado como referencia métrica fija.",
+      "dimensions": {
+        "width_m": 18.2,
+        "depth_m": 9.6,
+        "height_m": 2.9
+      },
+      "geometric_shape": "prisma_triangular",
+      "shape_factor": 0.85,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Escombro",
+        "probabilities": [
+          {
+            "material": "Escombro",
+            "probability": 0.96
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "mixto",
+        "rejection_percentage": 6.8,
+        "detected_impurities": [
+          "madera",
+          "plastico_fino"
+        ],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.88,
+      "confidence_reduction_factors": [],
+      "observations": "Cordón de vertido con restos de ladrillo y hormigón. Presencia admisible de film plástico y tablillas."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 215.3,
+      "min_m3": 187.3,
+      "max_m3": 243.3,
+      "formula_applied": "V = 0.5 · base · altura · longitud",
+      "explanation": "Prisma triangular longitudinal de descarga de camión.",
+      "error_margin_percent": 13
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 234.5,
+      "min_tonnes": 204,
+      "max_tonnes": 265,
+      "density_used_t_m3": 1.1,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 1
+    },
+    "effectiveVolumeM3": 215.3,
+    "effectiveVolumeRange": [
+      187.3,
+      243.3
+    ],
+    "effectiveWeightTonnes": 234.5,
+    "effectiveWeightRange": [
+      204,
+      265
+    ],
+    "effectiveMaterial": "Escombro",
+    "effectiveCleanliness": {
+      "level": "mixto",
+      "rejection_percentage": 6.8,
+      "detected_impurities": [
+        "madera",
+        "plastico_fino"
+      ],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 229,
+    "weightErrorTonnes": 5.5,
+    "weightErrorPercent": 2.4,
+    "scaleWeighingDate": "2026-10-19T12:04:06.777Z",
+    "scaleTicketNumber": "BAS-2026-1122",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-003",
+    "pileName": "Box 1 - Escombro Sucio Alerta de Seguridad",
+    "location": "Planta La Campaneta",
+    "zoneId": "zone-box-1",
+    "operatorUser": "Manuel P. (Inspector)",
+    "createdAt": "2026-10-16T12:04:06.777Z",
+    "images": [
+      "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "palo_graduado",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.12,
+        0.05,
+        0.9,
+        0.95
+      ],
+      "polygon": [
+        {
+          "x": 0.07,
+          "y": 0.88
+        },
+        {
+          "x": 0.3,
+          "y": 0.45
+        },
+        {
+          "x": 0.52,
+          "y": 0.16
+        },
+        {
+          "x": 0.8,
+          "y": 0.5
+        },
+        {
+          "x": 0.94,
+          "y": 0.88
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Palo / jalón graduado de 2,00 m",
+        "assumed_dimension_m": 2,
+        "dimension_type": "altura",
+        "confidence": 0.96
+      },
+      "estimated_scale_m_per_px": 0.0068,
+      "scale_reasoning": "Jalón de franjas rojas y blancas de 2,00 m clavado en la berma.",
+      "dimensions": {
+        "width_m": 11,
+        "depth_m": 9.8,
+        "height_m": 2.6
+      },
+      "geometric_shape": "forma_compuesta",
+      "shape_factor": 0.86,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Escombro",
+        "probabilities": [
+          {
+            "material": "Escombro",
+            "probability": 0.92
+          },
+          {
+            "material": "Basura",
+            "probability": 0.08
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "muy_sucio",
+        "rejection_percentage": 23.5,
+        "detected_impurities": [
+          "madera",
+          "carton_embalajes",
+          "plastico_fino",
+          "yeso_pladur"
+        ],
+        "excess_rejection_alert": true
+      },
+      "hazard_detection": {
+        "has_hazard": true,
+        "findings": [
+          {
+            "type": "aerosoles",
+            "suspicion_level": "alta",
+            "box": [
+              0.45,
+              0.62,
+              0.55,
+              0.72
+            ],
+            "visual_reason": "Dos botes cilíndricos metálicos de spray de marcaje y pintura presurizada visibles en superficie.",
+            "recommendation": "Retirar manualmente con guantes y EPI antes de que la pala mueva el acopio al molino."
+          }
+        ]
+      },
+      "confidence_score": 0.87,
+      "confidence_reduction_factors": [],
+      "observations": "ALERTA DE RECHAZO Y PELIGROSIDAD: 23,5% de impropios y presencia de botes de aerosol. Requiere triaje manual antes de procesar."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 125.8,
+      "min_m3": 110.7,
+      "max_m3": 140.9,
+      "formula_applied": "V = Forma compuesta irregular",
+      "explanation": "Compuesto irregular con penalización por huecos.",
+      "error_margin_percent": 12
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 94.6,
+      "min_tonnes": 83.2,
+      "max_tonnes": 106,
+      "density_used_t_m3": 0.8,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 6
+    },
+    "effectiveVolumeM3": 125.8,
+    "effectiveVolumeRange": [
+      110.7,
+      140.9
+    ],
+    "effectiveWeightTonnes": 94.6,
+    "effectiveWeightRange": [
+      83.2,
+      106
+    ],
+    "effectiveMaterial": "Escombro",
+    "effectiveCleanliness": {
+      "level": "muy_sucio",
+      "rejection_percentage": 23.5,
+      "detected_impurities": [
+        "madera",
+        "carton_embalajes",
+        "plastico_fino",
+        "yeso_pladur"
+      ],
+      "excess_rejection_alert": true
+    },
+    "hazardDetection": {
+      "enabled": true,
+      "has_hazard": true,
+      "alert_count": 1,
+      "findings": [
+        {
+          "id": "haz-003-1",
+          "type": "aerosoles",
+          "typeLabel": "Residuo Peligroso: Aerosoles / Sprays",
+          "suspicion_level": "alta",
+          "box": [
+            0.45,
+            0.62,
+            0.55,
+            0.72
+          ],
+          "visual_reason": "Botes cilíndricos presurizados de pintura roja de obra.",
+          "recommendation": "Retirar de inmediato al contenedor de residuos peligrosos.",
+          "status": "pendiente"
+        }
+      ]
+    },
+    "requiresHazardReview": true,
+    "realScaleWeightTonnes": 92,
+    "weightErrorTonnes": 2.6,
+    "weightErrorPercent": 2.8,
+    "scaleWeighingDate": "2026-10-16T12:04:06.777Z",
+    "scaleTicketNumber": "BAS-2026-1098",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-004",
+    "pileName": "Cúpula 02 - Árido Reciclado 20-40 mm",
+    "location": "Planta La Campaneta (Calle 2)",
+    "zoneId": "zone-aridos-2",
+    "operatorUser": "Carlos M. (Palista)",
+    "createdAt": "2026-10-09T12:04:06.777Z",
+    "images": [
+      "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "cono_trafico",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "polygon": [
+        {
+          "x": 0.12,
+          "y": 0.88
+        },
+        {
+          "x": 0.35,
+          "y": 0.35
+        },
+        {
+          "x": 0.5,
+          "y": 0.12
+        },
+        {
+          "x": 0.68,
+          "y": 0.38
+        },
+        {
+          "x": 0.89,
+          "y": 0.88
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Cono de tráfico reflectante (0,75 m)",
+        "assumed_dimension_m": 0.75,
+        "dimension_type": "altura",
+        "confidence": 0.96
+      },
+      "estimated_scale_m_per_px": 0.0065,
+      "scale_reasoning": "Cono de señalización de 0,75 m en la base del montón.",
+      "dimensions": {
+        "width_m": 22,
+        "depth_m": 16.5,
+        "height_m": 4.8,
+        "top_radius_m": 1.2
+      },
+      "geometric_shape": "tronco_cono",
+      "shape_factor": 0.9,
+      "material_classification": {
+        "category": "Producto tratado",
+        "primary_material": "Árido reciclado",
+        "probabilities": [
+          {
+            "material": "Árido reciclado",
+            "probability": 0.98
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": true,
+        "primary_granulometry": "20-40 mm",
+        "probabilities": [
+          {
+            "size": "20-40 mm",
+            "probability": 0.94
+          },
+          {
+            "size": "40-80 mm",
+            "probability": 0.06
+          }
+        ]
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 0.5,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.94,
+      "confidence_reduction_factors": [],
+      "observations": "Gran acopio principal para drenajes y hormigón no estructural. Cúspide pisada por retro."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 638.2,
+      "min_m3": 580.8,
+      "max_m3": 695.6,
+      "formula_applied": "V = (π · h / 3) · (R² + R·r + r²)",
+      "explanation": "Tronco de cono de gran tamaño con meseta superior.",
+      "error_margin_percent": 9
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 893.5,
+      "min_tonnes": 813.1,
+      "max_tonnes": 973.8,
+      "density_used_t_m3": 1.4,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 638.2,
+    "effectiveVolumeRange": [
+      580.8,
+      695.6
+    ],
+    "effectiveWeightTonnes": 893.5,
+    "effectiveWeightRange": [
+      813.1,
+      973.8
+    ],
+    "effectiveMaterial": "Árido reciclado",
+    "effectiveGranulometry": "20-40 mm",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 0.5,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 880,
+    "weightErrorTonnes": 13.5,
+    "weightErrorPercent": 1.53,
+    "scaleWeighingDate": "2026-10-10T12:04:06.777Z",
+    "scaleTicketNumber": "BAS-2026-1054",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-005",
+    "pileName": "Box 3 - Hormigón Limpio Molino",
+    "location": "Planta La Campaneta",
+    "zoneId": "zone-box-3",
+    "operatorUser": "Javier S. (Báscula)",
+    "createdAt": "2026-09-26T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "camion_volquete",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.15,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "polygon": [
+        {
+          "x": 0.12,
+          "y": 0.88
+        },
+        {
+          "x": 0.28,
+          "y": 0.42
+        },
+        {
+          "x": 0.52,
+          "y": 0.18
+        },
+        {
+          "x": 0.76,
+          "y": 0.46
+        },
+        {
+          "x": 0.9,
+          "y": 0.88
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Camión bañera 3 ejes (2,50 m ancho)",
+        "assumed_dimension_m": 2.5,
+        "dimension_type": "anchura",
+        "confidence": 0.93
+      },
+      "estimated_scale_m_per_px": 0.007,
+      "scale_reasoning": "Caja del camión volquete visible al fondo.",
+      "dimensions": {
+        "width_m": 16,
+        "depth_m": 13.5,
+        "height_m": 3.8
+      },
+      "geometric_shape": "cono",
+      "shape_factor": 0.89,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Hormigón",
+        "probabilities": [
+          {
+            "material": "Hormigón",
+            "probability": 0.97
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 1.2,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.91,
+      "confidence_reduction_factors": [],
+      "observations": "Bloques de hormigón limpio procedente de demolición de vigas y soleras. Muy bajo rechazo, ideal para árido reciclado de hormigón."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 191.2,
+      "min_m3": 172.1,
+      "max_m3": 210.3,
+      "formula_applied": "V = (π · (ancho/2) · (fondo/2) · altura) / 3",
+      "explanation": "Cono de bloques con talud pronunciado.",
+      "error_margin_percent": 10
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 248.6,
+      "min_tonnes": 223.7,
+      "max_tonnes": 273.4,
+      "density_used_t_m3": 1.3,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 191.2,
+    "effectiveVolumeRange": [
+      172.1,
+      210.3
+    ],
+    "effectiveWeightTonnes": 248.6,
+    "effectiveWeightRange": [
+      223.7,
+      273.4
+    ],
+    "effectiveMaterial": "Hormigón",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 1.2,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 254,
+    "weightErrorTonnes": -5.4,
+    "weightErrorPercent": 2.13,
+    "scaleWeighingDate": "2026-09-27T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2026-1010",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-006",
+    "pileName": "Móvil M-01 Obra Ronda Monzón 40-80 mm",
+    "location": "Obra Externa (Ronda Sur Monzón)",
+    "zoneId": "zone-obra-movil",
+    "operatorUser": "Pedro G. (Jefe de Obra)",
+    "createdAt": "2026-09-06T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "palo_graduado",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.2,
+        0.15,
+        0.88,
+        0.85
+      ],
+      "polygon": [
+        {
+          "x": 0.18,
+          "y": 0.86
+        },
+        {
+          "x": 0.35,
+          "y": 0.4
+        },
+        {
+          "x": 0.5,
+          "y": 0.22
+        },
+        {
+          "x": 0.7,
+          "y": 0.45
+        },
+        {
+          "x": 0.84,
+          "y": 0.86
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Palo / jalón graduado de 2,00 m",
+        "assumed_dimension_m": 2,
+        "dimension_type": "altura",
+        "confidence": 0.95
+      },
+      "estimated_scale_m_per_px": 0.0052,
+      "scale_reasoning": "Jalón métrico de 2m colocado a pie de tolva móvil.",
+      "dimensions": {
+        "width_m": 8.5,
+        "depth_m": 7.2,
+        "height_m": 2.3
+      },
+      "geometric_shape": "cono",
+      "shape_factor": 0.87,
+      "material_classification": {
+        "category": "Producto tratado",
+        "primary_material": "Árido reciclado",
+        "probabilities": [
+          {
+            "material": "Árido reciclado",
+            "probability": 0.95
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": true,
+        "primary_granulometry": "40-80 mm",
+        "probabilities": [
+          {
+            "size": "40-80 mm",
+            "probability": 0.89
+          },
+          {
+            "size": "20-40 mm",
+            "probability": 0.11
+          }
+        ]
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 0.7,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.9,
+      "confidence_reduction_factors": [],
+      "observations": "Trituración directa en obra para balasto y pedraplén de zanja."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 42.8,
+      "min_m3": 38.5,
+      "max_m3": 47.1,
+      "formula_applied": "V = (π · (ancho/2) · (fondo/2) · altura) / 3",
+      "explanation": "Cono regular de descarga de tolva móvil.",
+      "error_margin_percent": 10
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 59.9,
+      "min_tonnes": 53.9,
+      "max_tonnes": 65.9,
+      "density_used_t_m3": 1.4,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 42.8,
+    "effectiveVolumeRange": [
+      38.5,
+      47.1
+    ],
+    "effectiveWeightTonnes": 59.9,
+    "effectiveWeightRange": [
+      53.9,
+      65.9
+    ],
+    "effectiveMaterial": "Árido reciclado",
+    "effectiveGranulometry": "40-80 mm",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 0.7,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 61.2,
+    "weightErrorTonnes": -1.3,
+    "weightErrorPercent": 2.12,
+    "scaleWeighingDate": "2026-09-07T12:04:06.778Z",
+    "scaleTicketNumber": "OBR-2026-004",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-007",
+    "pileName": "Nave - Acopio Madera de Encofrado",
+    "location": "Planta La Campaneta (Nave)",
+    "zoneId": "zone-triaje",
+    "operatorUser": "Manuel P. (Inspector)",
+    "createdAt": "2026-08-12T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "contenedor_obra",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.18,
+        0.12,
+        0.88,
+        0.88
+      ],
+      "polygon": [
+        {
+          "x": 0.15,
+          "y": 0.85
+        },
+        {
+          "x": 0.32,
+          "y": 0.45
+        },
+        {
+          "x": 0.5,
+          "y": 0.2
+        },
+        {
+          "x": 0.72,
+          "y": 0.48
+        },
+        {
+          "x": 0.88,
+          "y": 0.85
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Contenedor metálico 5 m³ (3,80 m)",
+        "assumed_dimension_m": 3.8,
+        "dimension_type": "longitud",
+        "confidence": 0.94
+      },
+      "estimated_scale_m_per_px": 0.0062,
+      "scale_reasoning": "Contenedor de triaje adyacente de 3,80 m.",
+      "dimensions": {
+        "width_m": 8.5,
+        "depth_m": 6.8,
+        "height_m": 2.4
+      },
+      "geometric_shape": "prisma_triangular",
+      "shape_factor": 0.8,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Madera",
+        "probabilities": [
+          {
+            "material": "Madera",
+            "probability": 0.95
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 2,
+        "detected_impurities": [
+          "clavos_metálicos"
+        ],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.87,
+      "confidence_reduction_factors": [],
+      "observations": "Maderas limpias de pino y contrachapado procedentes de encofrados. Apto para trituración como biomasa / astillado."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 55.5,
+      "min_m3": 48.8,
+      "max_m3": 62.2,
+      "formula_applied": "V = 0.5 · base · altura · longitud · 0.80",
+      "explanation": "Prisma triangular con factor 80% por huecos entre tablones.",
+      "error_margin_percent": 12
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 13.9,
+      "min_tonnes": 12.2,
+      "max_tonnes": 15.6,
+      "density_used_t_m3": 0.25,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 55.5,
+    "effectiveVolumeRange": [
+      48.8,
+      62.2
+    ],
+    "effectiveWeightTonnes": 13.9,
+    "effectiveWeightRange": [
+      12.2,
+      15.6
+    ],
+    "effectiveMaterial": "Madera",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 2,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 14.5,
+    "weightErrorTonnes": -0.6,
+    "weightErrorPercent": 4.1,
+    "scaleWeighingDate": "2026-08-13T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2026-0921",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-008",
+    "pileName": "Sector 4 - Yesos y Pladur Reforma",
+    "location": "Planta La Campaneta",
+    "operatorUser": "Javier S. (Báscula)",
+    "createdAt": "2026-07-03T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "palo_graduado",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.18,
+        0.12,
+        0.88,
+        0.88
+      ],
+      "polygon": [
+        {
+          "x": 0.15,
+          "y": 0.85
+        },
+        {
+          "x": 0.32,
+          "y": 0.45
+        },
+        {
+          "x": 0.5,
+          "y": 0.2
+        },
+        {
+          "x": 0.72,
+          "y": 0.48
+        },
+        {
+          "x": 0.88,
+          "y": 0.85
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Palo / jalón graduado de 2,00 m",
+        "assumed_dimension_m": 2,
+        "dimension_type": "altura",
+        "confidence": 0.97
+      },
+      "estimated_scale_m_per_px": 0.0055,
+      "scale_reasoning": "Jalón graduado de 2 m.",
+      "dimensions": {
+        "width_m": 9,
+        "depth_m": 7.5,
+        "height_m": 2.1
+      },
+      "geometric_shape": "forma_compuesta",
+      "shape_factor": 0.82,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Yesos y pladur",
+        "probabilities": [
+          {
+            "material": "Yesos y pladur",
+            "probability": 0.94
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 2.5,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.89,
+      "confidence_reduction_factors": [],
+      "observations": "Placas fragmentadas de yeso laminado y falsos techos. Acopio seco protegido de lluvia."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 46.4,
+      "min_m3": 41.3,
+      "max_m3": 51.5,
+      "formula_applied": "V = Forma compuesta irregular",
+      "explanation": "Compuesto irregular con factor 82%.",
+      "error_margin_percent": 11
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 20.9,
+      "min_tonnes": 18.6,
+      "max_tonnes": 23.2,
+      "density_used_t_m3": 0.45,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 46.4,
+    "effectiveVolumeRange": [
+      41.3,
+      51.5
+    ],
+    "effectiveWeightTonnes": 20.9,
+    "effectiveWeightRange": [
+      18.6,
+      23.2
+    ],
+    "effectiveMaterial": "Yesos y pladur",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 2.5,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 21.8,
+    "weightErrorTonnes": -0.9,
+    "weightErrorPercent": 4.1,
+    "scaleWeighingDate": "2026-07-04T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2026-0811",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-009",
+    "pileName": "Parque Metales - Ferralla y Perfiles",
+    "location": "Planta La Campaneta",
+    "operatorUser": "Carlos M. (Palista)",
+    "createdAt": "2026-05-24T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "pala_cargadora",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.15,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "polygon": [
+        {
+          "x": 0.12,
+          "y": 0.88
+        },
+        {
+          "x": 0.35,
+          "y": 0.35
+        },
+        {
+          "x": 0.5,
+          "y": 0.15
+        },
+        {
+          "x": 0.7,
+          "y": 0.4
+        },
+        {
+          "x": 0.88,
+          "y": 0.88
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Cazo de pala cargadora (2,60 m)",
+        "assumed_dimension_m": 2.6,
+        "dimension_type": "anchura",
+        "confidence": 0.94
+      },
+      "estimated_scale_m_per_px": 0.0064,
+      "scale_reasoning": "Cazo de pala como referencia frontal.",
+      "dimensions": {
+        "width_m": 7.2,
+        "depth_m": 5.8,
+        "height_m": 1.9
+      },
+      "geometric_shape": "cono",
+      "shape_factor": 0.75,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Metales",
+        "probabilities": [
+          {
+            "material": "Metales",
+            "probability": 0.98
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 1,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.86,
+      "confidence_reduction_factors": [
+        "Material muy hueco con densidad volumétrica discontinua"
+      ],
+      "observations": "Varillas de ferralla recuperada mediante electroimán de cinta overband."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 20.7,
+      "min_m3": 18,
+      "max_m3": 23.4,
+      "formula_applied": "V = (π · (ancho/2) · (fondo/2) · altura) / 3 · 0.75",
+      "explanation": "Cono de chatarra con factor 75% por alta porosidad.",
+      "error_margin_percent": 13
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 12.4,
+      "min_tonnes": 10.8,
+      "max_tonnes": 14,
+      "density_used_t_m3": 0.6,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 20.7,
+    "effectiveVolumeRange": [
+      18,
+      23.4
+    ],
+    "effectiveWeightTonnes": 12.4,
+    "effectiveWeightRange": [
+      10.8,
+      14
+    ],
+    "effectiveMaterial": "Metales",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 1,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 11.8,
+    "weightErrorTonnes": 0.6,
+    "weightErrorPercent": 5,
+    "scaleWeighingDate": "2026-05-25T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2026-0640",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-010",
+    "pileName": "Sector 5 - Tierra Vegetal Cribada 0-20",
+    "location": "Planta La Campaneta",
+    "operatorUser": "Carlos M. (Palista)",
+    "createdAt": "2026-04-04T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "palo_graduado",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.25,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "polygon": [
+        {
+          "x": 0.12,
+          "y": 0.87
+        },
+        {
+          "x": 0.3,
+          "y": 0.48
+        },
+        {
+          "x": 0.52,
+          "y": 0.28
+        },
+        {
+          "x": 0.75,
+          "y": 0.49
+        },
+        {
+          "x": 0.88,
+          "y": 0.87
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Palo / jalón graduado de 2,00 m",
+        "assumed_dimension_m": 2,
+        "dimension_type": "altura",
+        "confidence": 0.95
+      },
+      "estimated_scale_m_per_px": 0.0075,
+      "scale_reasoning": "Jalón de 2m a pie de acopio.",
+      "dimensions": {
+        "width_m": 13,
+        "depth_m": 10.5,
+        "height_m": 2.8
+      },
+      "geometric_shape": "semielipsoide",
+      "shape_factor": 0.88,
+      "material_classification": {
+        "category": "Producto tratado",
+        "primary_material": "Tierra vegetal",
+        "probabilities": [
+          {
+            "material": "Tierra vegetal",
+            "probability": 0.96
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": true,
+        "primary_granulometry": "0-20 mm",
+        "probabilities": [
+          {
+            "size": "0-20 mm",
+            "probability": 0.95
+          }
+        ]
+      },
+      "cleanliness": {
+        "level": "limpio",
+        "rejection_percentage": 0.9,
+        "detected_impurities": [],
+        "excess_rejection_alert": false
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.92,
+      "confidence_reduction_factors": [],
+      "observations": "Tierra vegetal cribada rica en materia orgánica para restauración de taludes de autovía."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 176.3,
+      "min_m3": 158.7,
+      "max_m3": 193.9,
+      "formula_applied": "V = (2/3) · π · (ancho/2) · (fondo/2) · altura",
+      "explanation": "Semielipsoide suave con factor 88%.",
+      "error_margin_percent": 10
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 211.6,
+      "min_tonnes": 190.4,
+      "max_tonnes": 232.7,
+      "density_used_t_m3": 1.2,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 0
+    },
+    "effectiveVolumeM3": 176.3,
+    "effectiveVolumeRange": [
+      158.7,
+      193.9
+    ],
+    "effectiveWeightTonnes": 211.6,
+    "effectiveWeightRange": [
+      190.4,
+      232.7
+    ],
+    "effectiveMaterial": "Tierra vegetal",
+    "effectiveGranulometry": "0-20 mm",
+    "effectiveCleanliness": {
+      "level": "limpio",
+      "rejection_percentage": 0.9,
+      "detected_impurities": [],
+      "excess_rejection_alert": false
+    },
+    "realScaleWeightTonnes": 216,
+    "weightErrorTonnes": -4.4,
+    "weightErrorPercent": 2.03,
+    "scaleWeighingDate": "2026-04-05T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2026-0422",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-011",
+    "pileName": "Box 3 - Entrada Hormigón con Impropios (No Conforme)",
+    "location": "Planta La Campaneta",
+    "zoneId": "zone-box-3",
+    "operatorUser": "Manuel P. (Inspector)",
+    "createdAt": "2026-02-03T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "pared_muro",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.15,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "polygon": [
+        {
+          "x": 0.12,
+          "y": 0.88
+        },
+        {
+          "x": 0.35,
+          "y": 0.35
+        },
+        {
+          "x": 0.5,
+          "y": 0.15
+        },
+        {
+          "x": 0.7,
+          "y": 0.4
+        },
+        {
+          "x": 0.88,
+          "y": 0.88
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Muro divisorio de hormigón (4,00 m)",
+        "assumed_dimension_m": 4,
+        "dimension_type": "anchura",
+        "confidence": 0.94
+      },
+      "estimated_scale_m_per_px": 0.007,
+      "scale_reasoning": "Muro de box como referencia.",
+      "dimensions": {
+        "width_m": 12,
+        "depth_m": 10,
+        "height_m": 2.5
+      },
+      "geometric_shape": "cono",
+      "shape_factor": 0.88,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Hormigón",
+        "probabilities": [
+          {
+            "material": "Hormigón",
+            "probability": 0.92
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "mixto",
+        "rejection_percentage": 5.5,
+        "detected_impurities": [
+          "madera",
+          "plastico_fino"
+        ],
+        "excess_rejection_alert": true
+      },
+      "hazard_detection": {
+        "has_hazard": false,
+        "findings": []
+      },
+      "confidence_score": 0.88,
+      "confidence_reduction_factors": [],
+      "observations": "ALERTA DE CALIDAD: Hormigón no conforme (5,5% de impropios). El hormigón solo se acepta 100% limpio para machaqueo estructural. Requiere reclasificación a Escombro Mixto o triaje previo."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 69.1,
+      "min_m3": 62.2,
+      "max_m3": 76,
+      "formula_applied": "V = (π · (ancho/2) · (fondo/2) · altura) / 3",
+      "explanation": "Cono de bloques.",
+      "error_margin_percent": 10
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 89.8,
+      "min_tonnes": 80.8,
+      "max_tonnes": 98.8,
+      "density_used_t_m3": 1.3,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 1
+    },
+    "effectiveVolumeM3": 69.1,
+    "effectiveVolumeRange": [
+      62.2,
+      76
+    ],
+    "effectiveWeightTonnes": 89.8,
+    "effectiveWeightRange": [
+      80.8,
+      98.8
+    ],
+    "effectiveMaterial": "Hormigón",
+    "effectiveCleanliness": {
+      "level": "mixto",
+      "rejection_percentage": 5.5,
+      "detected_impurities": [
+        "madera",
+        "plastico_fino"
+      ],
+      "excess_rejection_alert": true
+    },
+    "realScaleWeightTonnes": 91.5,
+    "weightErrorTonnes": -1.7,
+    "weightErrorPercent": 1.85,
+    "scaleWeighingDate": "2026-02-04T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2026-0290",
+    "scaleVerified": true,
+    "isDemo": true
+  },
+  {
+    "id": "rcd-demo-012",
+    "pileName": "Sector 6 - Rechazo General Alerta Amianto/Uralita",
+    "location": "Planta La Campaneta",
+    "operatorUser": "Manuel P. (Inspector)",
+    "createdAt": "2025-12-05T12:04:06.778Z",
+    "images": [
+      "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80"
+    ],
+    "referenceObjectType": "palo_graduado",
+    "aiOutput": {
+      "pile_detected": true,
+      "pile_count": 1,
+      "bounding_box": [
+        0.15,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "polygon": [
+        {
+          "x": 0.12,
+          "y": 0.88
+        },
+        {
+          "x": 0.35,
+          "y": 0.35
+        },
+        {
+          "x": 0.5,
+          "y": 0.15
+        },
+        {
+          "x": 0.7,
+          "y": 0.4
+        },
+        {
+          "x": 0.88,
+          "y": 0.88
+        }
+      ],
+      "reference_object": {
+        "detected": true,
+        "type": "Palo graduado de 2,00 m",
+        "assumed_dimension_m": 2,
+        "dimension_type": "altura",
+        "confidence": 0.95
+      },
+      "estimated_scale_m_per_px": 0.0068,
+      "scale_reasoning": "Jalón métrico de 2m.",
+      "dimensions": {
+        "width_m": 8,
+        "depth_m": 6.5,
+        "height_m": 1.8
+      },
+      "geometric_shape": "prisma_triangular",
+      "shape_factor": 0.85,
+      "material_classification": {
+        "category": "Residuo recibido",
+        "primary_material": "Basura",
+        "probabilities": [
+          {
+            "material": "Basura",
+            "probability": 0.95
+          }
+        ]
+      },
+      "granulometry": {
+        "applicable": false
+      },
+      "cleanliness": {
+        "level": "muy_sucio",
+        "rejection_percentage": 28,
+        "detected_impurities": [
+          "plastico_fino",
+          "carton_embalajes",
+          "materia_organica"
+        ],
+        "excess_rejection_alert": true
+      },
+      "hazard_detection": {
+        "has_hazard": true,
+        "findings": [
+          {
+            "type": "amianto_uralita",
+            "suspicion_level": "alta",
+            "box": [
+              0.35,
+              0.25,
+              0.55,
+              0.45
+            ],
+            "visual_reason": "Fragmento de placa ondulada grisácea de textura fibrosa semienterrada en el talud.",
+            "recommendation": "PARAR MANIPULACIÓN. Activar protocolo RCD-PELIGRO-01. Acordonar y llamar a técnico gestor RERA."
+          }
+        ]
+      },
+      "confidence_score": 0.85,
+      "confidence_reduction_factors": [],
+      "observations": "ALERTA MÁXIMA DE SEGURIDAD: Sospecha de fibrocemento con amianto. Acopio bloqueado preventivamente."
+    },
+    "calculatedVolume": {
+      "nominal_m3": 39.8,
+      "min_m3": 35,
+      "max_m3": 44.5,
+      "formula_applied": "V = 0.5 · base · altura · longitud",
+      "explanation": "Prisma triangular de descarga.",
+      "error_margin_percent": 12
+    },
+    "calculatedWeight": {
+      "nominal_tonnes": 13.1,
+      "min_tonnes": 11.5,
+      "max_tonnes": 14.6,
+      "density_used_t_m3": 0.35,
+      "calibration_factor_used": 1,
+      "rejection_deduction_percent": 6
+    },
+    "effectiveVolumeM3": 39.8,
+    "effectiveVolumeRange": [
+      35,
+      44.5
+    ],
+    "effectiveWeightTonnes": 13.1,
+    "effectiveWeightRange": [
+      11.5,
+      14.6
+    ],
+    "effectiveMaterial": "Basura",
+    "effectiveCleanliness": {
+      "level": "muy_sucio",
+      "rejection_percentage": 28,
+      "detected_impurities": [
+        "plastico_fino",
+        "carton_embalajes"
+      ],
+      "excess_rejection_alert": true
+    },
+    "hazardDetection": {
+      "enabled": true,
+      "has_hazard": true,
+      "alert_count": 1,
+      "findings": [
+        {
+          "id": "haz-012-1",
+          "type": "amianto_uralita",
+          "typeLabel": "Posible Fibrocemento / Uralita con Amianto",
+          "suspicion_level": "alta",
+          "box": [
+            0.35,
+            0.25,
+            0.55,
+            0.45
+          ],
+          "visual_reason": "Placa ondulada de fibrocemento gris con rotura fibrosa.",
+          "recommendation": "Paralizar maquinaria. La IA no confirma amianto; requiere análisis de laboratorio especializado.",
+          "status": "confirmada",
+          "reviewed_by": "Manuel P. (Responsable MA)",
+          "reviewed_at": "2025-12-06T12:04:06.778Z",
+          "review_notes": "Retirado por empresa autorizada RERA. Resto del acopio derivado a vertedero."
+        }
+      ]
+    },
+    "requiresHazardReview": false,
+    "realScaleWeightTonnes": 13.5,
+    "weightErrorTonnes": -0.4,
+    "weightErrorPercent": 2.96,
+    "scaleWeighingDate": "2025-12-06T12:04:06.778Z",
+    "scaleTicketNumber": "BAS-2025-0145",
+    "scaleVerified": true,
+    "isDemo": true
+  }
+]

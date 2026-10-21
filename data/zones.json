@@ -1,0 +1,90 @@
+[
+  {
+    "id": "zone-box-1",
+    "name": "Box 1 - Entrada Escombro Sucio",
+    "location": "Planta La Campaneta",
+    "defaultMaterial": "Escombro",
+    "defaultCleanliness": "sucio",
+    "defaultReferenceType": "pared_muro",
+    "defaultReferenceDimensionM": 4,
+    "defaultReferenceSecondaryM": 2.5,
+    "notes": "Muro de contención de hormigón armado de 4,00m de ancho × 2,50m de alto.",
+    "isActive": true
+  },
+  {
+    "id": "zone-box-2",
+    "name": "Box 2 - Escombro Limpio y Mixto",
+    "location": "Planta La Campaneta",
+    "defaultMaterial": "Escombro",
+    "defaultCleanliness": "mixto",
+    "defaultReferenceType": "pared_muro",
+    "defaultReferenceDimensionM": 4,
+    "defaultReferenceSecondaryM": 2.5,
+    "notes": "Muro divisorio lateral de 4,00m × 2,50m.",
+    "isActive": true
+  },
+  {
+    "id": "zone-box-3",
+    "name": "Box 3 - Acopio Hormigón Limpio",
+    "location": "Planta La Campaneta",
+    "defaultMaterial": "Hormigón",
+    "defaultReferenceType": "palo_graduado",
+    "defaultReferenceDimensionM": 2,
+    "notes": "Alimentación molino de impacto. Jalón graduado de 2,00m permanente.",
+    "isActive": true
+  },
+  {
+    "id": "zone-aridos-1",
+    "name": "Cúpula 1 - Árido Reciclado 0-20 mm",
+    "location": "Planta La Campaneta (Calle 3)",
+    "defaultMaterial": "Árido reciclado",
+    "defaultGranulometry": "0-20 mm",
+    "defaultReferenceType": "pala_cargadora",
+    "defaultReferenceDimensionM": 2.6,
+    "notes": "Salida de trommel cribador. Cazo de pala CAT (2,60m).",
+    "isActive": true
+  },
+  {
+    "id": "zone-aridos-2",
+    "name": "Cúpula 2 - Árido Reciclado 20-40 mm",
+    "location": "Planta La Campaneta (Calle 2)",
+    "defaultMaterial": "Árido reciclado",
+    "defaultGranulometry": "20-40 mm",
+    "defaultReferenceType": "cono_trafico",
+    "defaultReferenceDimensionM": 0.75,
+    "notes": "Fracción media limpia para drenaje y hormigón no estructural.",
+    "isActive": true
+  },
+  {
+    "id": "zone-aridos-3",
+    "name": "Cúpula 3 - Árido Reciclado 40-80 mm",
+    "location": "Planta La Campaneta (Calle 1)",
+    "defaultMaterial": "Árido reciclado",
+    "defaultGranulometry": "40-80 mm",
+    "defaultReferenceType": "palet_europeo",
+    "defaultReferenceDimensionM": 1.2,
+    "notes": "Fracción gruesa balasto para estabilización de suelos.",
+    "isActive": true
+  },
+  {
+    "id": "zone-obra-movil",
+    "name": "Obra Externa - Trituradora Móvil",
+    "location": "Obra Externa (Comarca Cinca Medio)",
+    "defaultMaterial": "Árido reciclado de hormigón",
+    "defaultGranulometry": "0-20 mm",
+    "defaultReferenceType": "palo_graduado",
+    "defaultReferenceDimensionM": 2,
+    "notes": "Trituración in-situ en obra con equipo sobre orugas.",
+    "isActive": true
+  },
+  {
+    "id": "zone-triaje",
+    "name": "Parque de Maderas y Plásticos",
+    "location": "Planta La Campaneta (Nave)",
+    "defaultMaterial": "Madera",
+    "defaultReferenceType": "contenedor_obra",
+    "defaultReferenceDimensionM": 3.8,
+    "notes": "Contenedor metálico de 5m³ de referencia (3,80m).",
+    "isActive": true
+  }
+]

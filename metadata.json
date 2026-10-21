@@ -1,0 +1,10 @@
+{
+  "name": "AcopioVision - RCD Circular",
+  "description": "Estimación volumétrica y control de acopios de áridos y residuos de construcción y demolición mediante visión artificial para RCD Circular (Monzón)",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
