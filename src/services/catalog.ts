@@ -3,7 +3,7 @@
  * RCD Circular - Monzón (Aragón)
  */
 
-import { CleanlinessLevel } from '../types';
+import type { CleanlinessLevel } from '../types/index.ts';
 
 export interface CatalogItem {
   id: string;

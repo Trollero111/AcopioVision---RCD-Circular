@@ -4,7 +4,7 @@
  * las tres granulometrías de árido reciclado, pesajes en báscula y alertas de peligrosidad.
  */
 
-import { PileAnalysisRecord } from '../types';
+import type { PileAnalysisRecord } from '../types/index.ts';
 
 export const EXPANDED_DEMO_RECORDS: PileAnalysisRecord[] = [
   // ── 1. ÁRIDO RECICLADO 0-20 MM (Zahorra tratada) ─────────────────

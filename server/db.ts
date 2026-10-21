@@ -10,7 +10,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import {
+import type {
   PileAnalysisRecord,
   PileZone,
   CalibrationSample,
@@ -18,9 +18,9 @@ import {
   AuditLogEntry,
   AppSettings,
   UserAccount,
-} from '../src/types';
-import { OFFICIAL_CATALOG } from '../src/services/catalog';
-import { EXPANDED_DEMO_RECORDS } from '../src/services/mockData';
+} from '../src/types/index.ts';
+import { OFFICIAL_CATALOG } from '../src/services/catalog.ts';
+import { EXPANDED_DEMO_RECORDS } from '../src/services/mockData.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

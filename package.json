@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build && esbuild server.ts --platform=node --bundle --format=esm --outfile=server.js --external:vite --external:esbuild",
-    "start": "node server.js",
-    "clean": "rm -rf dist server.js",
+    "build": "vite build",
+    "start": "node server.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
